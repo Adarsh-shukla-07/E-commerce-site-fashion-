@@ -1,0 +1,483 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto',sans-serif;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ background-color: #eeee;
+ padding: 17px;
+ box-shadow: 0px 2px 2px 2px gray;
+}
+body{
+    background-color: #d3ccccee ;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7 px;
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 20px;
+}
+nav ul li{
+    list-style:none;
+}
+ul li a{
+    margin-inline: 15px;
+    font-size: 20px;
+    
+}
+ul li i{
+     font-size: 22px;
+}
+
+ul li a:hover{
+    color: rgb(17, 212, 212);
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+ .main .main-text{
+    margin-top: 144px;
+}
+
+.main #pic{
+    margin-top: 70px;
+    height: 650px;
+}
+.main-text h1{
+    font-size: 65px;
+    color: rgb(25, 158, 158);
+}
+.main-text button{
+    width:145px;
+    height: 40px;
+    background-color: aquamarine;
+    font-size: 20px;
+    border: none;
+    color: black;
+    margin-top: 20px;
+}
+.main-text button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(11, 116, 81);
+    color: rgb(11, 116, 81);
+}
+.main-text p{
+    margin-top: 10px;
+}
+ .head h1{
+text-align: center;
+margin-top: 20px;
+padding: 33px;
+}
+.trend span{
+    color: rgb(51, 197, 197);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+}
+.crd:hover{
+    transition: 0.6s ease;
+    width: 320px;
+    height: 520px;
+}
+.card img{
+    width: 85%;
+    padding: 15px;
+    border-radius: 28px;
+}
+.cardText{
+    margin-left: 18px;
+    margin-bottom: 12px;
+    
+    margin-bottom:29px;
+}
+.cardText button{
+    width: 130px;
+    height: 30px;
+    font-size: 19px;
+    background:aqua;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    position: relative;
+    bottom: 4px;
+}
+.cardText button:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    color:black;
+    box-shadow: 0px 2px 2px 2px violet;
+}
+.cardText i{
+    color: yellow;
+    margin-top: 2px;
+}
+.about{
+    display: none;
+}
+.about-us{
+    background-color:rgb(4, 4, 69);
+    color: white;
+    padding: 66px;
+    font-size: 22px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: #fff;
+    padding: 33px;
+    margin-top: 5%;
+    margin-left: 19%;
+}
+.me img{
+    width: 54%;
+}
+.contact{
+    display: none;
+}
+.contact-us{
+    background-color:rgb(4, 4, 69);
+    color: white;
+    padding: 66px;
+    font-size: 22px; 
+    margin-top: 14px;
+}
+.contact img{
+    width: 65%;
+}
+.contact .contact-me{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-top: 5%;
+   margin-inline:20%;
+} 
+.contact-me img:hover{
+    width: 69%;
+} 
+.contact .contact-text{
+    padding: 4%;
+    width:600px;
+}
+.contact-text h2{
+    margin-bottom:7%;
+}
+.form{
+    text-align: center;
+    margin-top: 25px;
+}
+.form input{
+    width: 300px;
+    height: 33px;
+    margin-top: 10px;
+    color: blue;
+}
+.form button{
+    margin-top: 10px;
+    width: 120px;
+    height: 33px;
+    background-color: aqua;
+    color: #fff;
+    font-size: 19px;
+    box-shadow: 0px 4px 4px 0px  rgb(104, 98, 98);
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin-inline: 22px;
+    background-color: #fff;
+    border-radius: 23px;
+}
+.blog:hover{
+    transition:0.6s ease;
+    width: 521x;
+    height: 321px;
+}
+.blog img{
+    width:85%;
+    padding:12px;
+  
+}
+.blog .blog-text{
+    margin-top: 33px;
+    padding: 12px;
+}
+.blog-text a{
+    padding: 4px;
+    margin-top: 4px;
+    box-shadow: 0px 2px 2px 2px gray;
+    position: relative;
+    top: 5px;
+    width: 120px;
+    background-color: aquamarine;
+    width: 130px;
+
+}
+
+ .letter{
+    display: flex;
+    background-color:rgb(4, 4, 69);
+    justify-content: space-between;
+    padding: 42px;
+    color: #fff;
+    margin-top: 20px;
+   
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 330px;
+    height: 32px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.inp button{
+    width: 100px;
+    height:32px ;
+    background-color: rgb(40, 179, 40);
+    color: #fff;
+    border: none;
+}
+.inp input:hover{
+    border: 2.5px solid orange;
+   
+}
+.inp button:hover{
+    border:2px solid wheat;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline: 75px;
+}
+.footerText p{
+    margin-top: 10px;
+}
+/* responsive */
+/* small screen  */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+       align-items: flex-start;
+    }
+ nav li a, nav li i{
+  position: relative;
+  top: 8px;
+ }
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main-text h1 {
+        font-size: 40px;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card .crd {
+        width: 250px;
+        height: 450px;
+        margin-top: 10px;
+      margin-inline: 3%;
+    }
+    .crd:hover{
+        width: 260px;
+        height: 460px;
+    }
+     
+    .blog {
+        width: 200px;
+        height: 520px;
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 40px;
+    }
+    .blog .blog-text{
+        margin-top: 3px;
+    }
+    .blog-text p{
+        margin-bottom: 8px;
+        margin-top:8px ;
+    }
+   .blog:hover{
+    width: 210px;
+    height: 530px;
+   }
+   .about{
+    margin-top: 3%;
+    display: none;
+   }
+   .about .me{
+    flex-direction: column;
+   width: 70%;
+    margin-left: 3%;
+    margin-top: 3%;
+   }
+   
+   .contact .contact-me {
+    flex-direction: column; /* Stack vertically */
+    align-items: center; /* Center-align items */
+    width: 90%; /* Make full-width with some margin */
+    margin-inline: 10px; /* Center on the page */
+    height: auto; /* Allow height to adjust dynamically */
+  
+}
+.contact-text h2{
+    margin-left: 25%;
+}
+.contact-text h5{
+    margin-left: 25%;
+}
+.contact-me img {
+    width: 100%; /* Full width for small screens */
+    
+}
+.contact-text
+{    
+    width: 100%;
+    padding: 35%;
+}
+    .footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .footerText{
+        margin-top: 9px;
+        
+    }
+   
+    .letter {
+        flex-direction: column;
+        padding: 30px;
+       margin-left: 20px;
+    }
+    .letterText p{
+        margin-top: 9px;
+        margin-bottom: 12px;
+    }
+
+    .inp input {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 14px;
+        padding: 0%;
+    }
+    .inp button {
+        margin-bottom: 10px;
+        font-size: 14px;
+        padding: 0%;
+    }
+}
+
+/* For medium screens (Tablets) */
+@media (max-width: 1024px) {
+    @media(min-width:601px) {
+        
+    
+    .main {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .main #pic{
+        height: 600px;
+        width: 500px;
+        margin-left: 100px;
+    }
+    .Trends .card{
+        flex-direction: row;
+       
+    }
+   .blog{
+    height: 400px;
+    padding: 80px;
+    width: 500px;
+    
+   }
+   .blog:hover{ 
+    transition:0.6s ease;
+    height: 410px;
+    width: 510px;
+
+   }
+   .blog.blog-text {
+    position: relative;
+     bottom: 50px;
+   }
+    
+    .card {
+        flex-direction: row;
+    }
+    .card .crd{
+        width: 450px;
+        height: 450px;
+        margin-top: 10px;
+       
+    }
+    .crd:hover{
+        transition: 0.6s ease;
+        width: 460px;
+        height: 460px;
+    }
+    .about{
+        margin-top: 3%;
+        display: none;
+    }
+    .me{
+        flex-direction: column;
+        width: 60%;
+    }
+    .contact .contact-me {
+       /* Stack vertically */
+        align-items: center; /* Center-align items */
+        width: 90%; /* Make full-width with some margin */
+        margin-inline: 10px; /* Center on the page */
+        height: auto; /* Allow height to adjust dynamically */
+      
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .letter {
+        flex-direction: column;
+        padding: 35px;
+    }
+
+}
+}
